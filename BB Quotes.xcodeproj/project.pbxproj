@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398C14942AF66B3100796EC9 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 398C14932AF66B3100796EC9 /* samplecharacter.json */; };
+		398C14962AF66B3A00796EC9 /* Base URL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 398C14952AF66B3A00796EC9 /* Base URL.txt */; };
 		39AE5C6C2AF339AA000193FB /* BB_QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE5C6B2AF339AA000193FB /* BB_QuotesApp.swift */; };
 		39AE5C6E2AF339AA000193FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE5C6D2AF339AA000193FB /* ContentView.swift */; };
 		39AE5C702AF339AC000193FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AE5C6F2AF339AC000193FB /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		398C14932AF66B3100796EC9 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		398C14952AF66B3A00796EC9 /* Base URL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Base URL.txt"; sourceTree = "<group>"; };
 		39AE5C682AF339AA000193FB /* BB Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AE5C6B2AF339AA000193FB /* BB_QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB_QuotesApp.swift; sourceTree = "<group>"; };
 		39AE5C6D2AF339AA000193FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				39AE5C6B2AF339AA000193FB /* BB_QuotesApp.swift */,
 				39AE5C6D2AF339AA000193FB /* ContentView.swift */,
+				398C14952AF66B3A00796EC9 /* Base URL.txt */,
+				398C14932AF66B3100796EC9 /* samplecharacter.json */,
 				39AE5C6F2AF339AC000193FB /* Assets.xcassets */,
 				39AE5C712AF339AC000193FB /* Preview Content */,
 			);
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398C14962AF66B3A00796EC9 /* Base URL.txt in Resources */,
 				39AE5C732AF339AC000193FB /* Preview Assets.xcassets in Resources */,
+				398C14942AF66B3100796EC9 /* samplecharacter.json in Resources */,
 				39AE5C702AF339AC000193FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
